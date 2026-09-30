@@ -1,0 +1,14 @@
+{
+    "name": "aj-cms-assets",
+    "private": true,
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "tailwindcss -i ./resources/css/admin.css -o ./public/dist/css/admin.min.css --watch & tailwindcss -i ./resources/css/site.css -o ./public/dist/css/site.min.css --watch",
+        "build": "tailwindcss -i ./resources/css/admin.css -o ./public/dist/css/admin.min.css --minify && tailwindcss -i ./resources/css/site.css -o ./public/dist/css/site.min.css --minify"
+    },
+    "devDependencies": {
+        "@tailwindcss/typography": "^0.5.15",
+        "autoprefixer": "^10.4.20",
+        "tailwindcss": "^3.4.13"
+    }
+}

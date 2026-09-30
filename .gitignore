@@ -1,0 +1,35 @@
+# ─── Secretos y configuración local ─────────────────────────
+# Credenciales de BD/SMTP. En el servidor se crea a partir de .env.example.
+.env
+.env.*
+!.env.example
+
+# ─── Dependencias (se reinstalan con composer install / npm install) ───
+/vendor/
+/node_modules/
+
+# ─── Archivos subidos desde el admin ────────────────────────
+# Viven en el servidor junto con la base de datos (la tabla `media` apunta a ellos);
+# se respaldan/migran aparte, no por git. Se conserva la carpeta vacía.
+/public/uploads/*
+!/public/uploads/.gitkeep
+
+# ─── Material de trabajo que no es parte del sitio ──────────
+*.pptx
+*.docx
+*.xlsx
+
+# ─── Respaldos de base de datos y logs ──────────────────────
+# (database/ajmedical_cms.sql es el esquema y sí se versiona)
+/database/backups/
+*.sql.gz
+*.log
+/storage/
+
+# ─── Editor / sistema operativo ─────────────────────────────
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+desktop.ini

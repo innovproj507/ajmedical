@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Servir archivos y directorios reales tal cual (ej. /dist/css/site.min.css si se copia aquí)
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Todo lo demás pasa por el front controller
+RewriteRule ^ index.php [L]

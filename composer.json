@@ -1,0 +1,20 @@
+{
+    "name": "ajmedical/cms",
+    "description": "CMS y catálogo virtual de AJ Medical Supply",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.1",
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "AJM\\Core\\": "core/",
+            "AJM\\Plugins\\": "plugins/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}

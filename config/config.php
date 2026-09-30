@@ -110,7 +110,7 @@ $appDefaults = [
     'SOCIAL_LINKEDIN'  => '',
     // Hero de inicio (templates/public/home.php) — categoría "hero" en /admin/settings.
     'HERO_EYEBROW'      => 'Distribuidores de insumos médicos',
-    'HERO_TITLE'        => 'Insumos médicos confiables para cuidar mejor',
+    'HERO_TITLE'        => 'Dispositivos médicos confiables',
     'HERO_SUBTITLE'     => '',
     'HERO_STAT_1_VALUE' => '',
     'HERO_STAT_1_LABEL' => '',

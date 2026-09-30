@@ -286,7 +286,7 @@ INSERT INTO settings (`key`, value, label, category, type) VALUES
 ('SOCIAL_INSTAGRAM', '', 'Instagram (URL)', 'redes', 'text'),
 ('SOCIAL_LINKEDIN', '', 'LinkedIn (URL)', 'redes', 'text'),
 ('HERO_EYEBROW', 'Distribuidores de insumos médicos', 'Hero: texto superior', 'hero', 'text'),
-('HERO_TITLE', 'Insumos médicos confiables para cuidar mejor', 'Hero: título', 'hero', 'text'),
+('HERO_TITLE', 'Dispositivos médicos confiables', 'Hero: título', 'hero', 'text'),
 ('HERO_SUBTITLE', 'Descartables, curaciones, protección personal, diagnóstico y equipos para clínicas, hospitales y profesionales de la salud.', 'Hero: subtítulo', 'hero', 'textarea'),
 ('HERO_STAT_1_VALUE', '+500', 'Estadística 1: valor', 'hero', 'text'),
 ('HERO_STAT_1_LABEL', 'Productos en catálogo', 'Estadística 1: descripción', 'hero', 'text'),
